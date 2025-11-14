@@ -1,0 +1,48 @@
+.urban1_OK{
+	margin: auto;
+	width: 200px;
+	border-radius: 50%;
+	float: left;
+	padding-top: 10px;
+	padding-right: 5px;
+	
+}
+
+/* main container */
+.containerok{
+	
+}
+/* div1 */
+.div1_OK{
+	border-style: groove;
+    border-width: 5px;
+	border-radius: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #8FABD4;
+	border-color: #4A70A9;
+}
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font1_OK {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
