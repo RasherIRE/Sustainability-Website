@@ -1,15 +1,67 @@
+/* Oran King CSS */
 .urban1_OK{
 	margin: auto;
-	width: 200px;
+	width: 300px;
 	border-radius: 50%;
-	float: left;
+	float: right;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-right: 5px;
+	display: inline-block;
 	
 }
 
+.urban2_OK{
+	margin: auto;
+	width: 300px;
+	border-radius: 50%;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+.urban3_OK{
+	margin: auto;
+	width: 300px;
+	border-radius: 50%;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+.urban4_OK{
+	margin: auto;
+	width: 300px;
+	border-radius: 50%;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+.urban7_OK{
+	height: 50%;
+	width: 50%;
+	margin-left: 25%;
+	object-fit: contain;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+
+
 /* main container */
-.containerok{
+.container{
 	
 }
 /* div1 */
@@ -23,13 +75,38 @@
 	border-color: #4A70A9;
 }
 
-.libre-baskerville-regular {
+.div2_OK{
+	border-style: groove;
+    border-width: 70px;
+	border-radius: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #8FABD4;
+	border-color: #4A70A9;
+	width: 100%;
+	background-image: url("../images/urban7.jpg");
+	object-fit: contain;
+
+	
+}
+
+.div3_OK{
+	border-style: groove;
+    border-width: 5px;
+	border-radius: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #8FABD4;
+	border-color: #4A70A9;
+}
+/* font 2 */
+.font2_OK {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.libre-baskerville-bold {
+.font2_OKBold {
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
   font-style: normal;
@@ -40,9 +117,40 @@
   font-weight: 400;
   font-style: italic;
 }
-
+ /* Main font */
 .font1_OK {
   font-family: "Marcellus", serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.titleAU{
+	text-align: center;
+	border: solid #000000 2px;
+	margin-left: auto; 	
+	margin-right: auto;
+	background-color: #4A70A9;
+	border-style: groove;
+    border-width: 5px;
+	border-radius: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.body1_ok{
+	background-image: url("../images/urban2.jpg");
+	
+}
+
+.body2_ok{
+	background-image: url("../images/urban5.jpg");
+}
+
+h4{
+	text-align: center;
+}
+
+
+
+/* Oran King CSS End*/
