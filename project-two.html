@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- research 2 Oran King --!>
+<html lang="en"> <!-- research 2 Oran King -->
 
 	<head>
 		<title>Research2</title>
@@ -18,7 +18,7 @@
 	
 	<body class="body1_ok">
 		<!--SM Nav bar start --!>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">Group C: Web Design Project</a>
 			&nbsp
@@ -55,7 +55,7 @@
 		</nav>
 		<!-- SM Navbar end --!>
 	<!-- main container --!>
-	<div class="container">
+	<div class="container_OK">
 				<br>
 			<h2 class="titleR2 font2_OKBold">Urban Sustainability</h2>
 				<br>
@@ -66,6 +66,7 @@
 					<p class="p1_OK font1_OK"> The role of a city from a sustainability point of view is very important for social, human, commerce, culture, productivity and economic development. It is the backbone for society and has a knock-on affect in all areas. In the year 2008 for the first time in history the global urban population actually outnumbered the rural population. This marked an urban millennium and with that milestone it is forecasted that 2/3rds of the world population will be living in urban areas. With more than mankind living in urban areas (cities) and urban residency growing by up to 73 million per year it is calculated that urban areas account for about 70% of the world's gross doemstic product. Due to this high level of urbanization the UN has given importance to the topic of urban sustainability also known as their Sustainable Development Goals. This particular SDG is goal 11 which is Sustainable cities and human settlements. The goal of this SDG is to make cities and human settlements safe, resilient and sustainable. Another goal is to ensure access for all to adequate, safe and affordable housing in the world. Basic humantarian services and upgraded slums are a part of this too.</p>
 					<!-- Sources: https://sdgs.un.org/topics/sustainable-cities-and-human-settlements#milestones
 					https://sdgs.un.org/topics/sustainable-cities-and-human-settlements#description
+					https://globalgoals.org/goals/11-sustainable-cities-and-communities/	
 					--!>
 					
 			</div>
@@ -188,9 +189,48 @@
 						const fact = facts3[Math.floor(Math.random() * facts3.length)];
 						document.getElementById("factDisplay3").textContent = fact;
 					  };
+					  // JS for sources button in footer
+					   const sources = [
+					"Source 1: ",
+					"Source 2: ",
+					"Source 3: "
+				  ];
+
+				  document.getElementById("sourcesBtn").onclick = function () {
+					const container = document.getElementById("sourcesList");
+
+					if (container.style.display === "none" || container.style.display === "") {
+
+						let html = "<ul>";
+						sources.forEach(src => {
+						  html += `<li>${src}</li>`;
+						});
+						html += "</ul>";
+
+						container.innerHTML = html;
+						container.style.display = "block";
+
+						// Reset animation
+						container.classList.remove("show");
+						void container.offsetWidth; // force reflow (needed to restart animation)
+						container.classList.add("show");
+
+						this.textContent = "Hide Sources";
+
+					} else {
+
+						container.style.display = "none";
+						container.classList.remove("show");
+						this.textContent = "Click for Sources";
+
+					}
+				  };
 				 
 				
 				</script>
+		<footer class="footer_OK">
+		<button>Click for sources</button>
+		</footer>
 
 	</body>
 
