@@ -1,22 +1,23 @@
 /* Oran King CSS */
 .urban1_OK{
 	
-	width: 300px;
+	width: 30%;
 	border-radius: 50%;
 	float: right;
-	padding: 10px 5px;
+	padding: 30px 5px;
 	display: inline-block;
-	margin-left: 20px;
+
 	
 }
-
+/* styling for the images */
 .urban2_OK{
-	margin: auto;
+	
 	border-radius: 50%;
 	float: left;
-	width: 20%;
-	padding: 10px 5px;
-	
+	width: 30%;
+	padding: 10px 20px;
+	margin-right: 20px;
+	display: inline-block;
 }
 
 .urban3_OK{
@@ -51,10 +52,10 @@
 
 
 /* main container */
-.container{
+.container_OK{
 	
 }
-/* div1 */
+
 .div1_OK{
 	border-style: groove;
     border-width: 5px;
@@ -63,16 +64,23 @@
 	padding-right: 5px;
 	background-color: #8FABD4;
 	border-color: #4A70A9;
+	max-width: 1200px;       
+    margin: 0 auto;           
+    overflow: auto;  
 }
-
+/* padding used with overflow to make the div have more shape */
 .div2_OK{
 	border-style: groove;
     border-width: 5px;
 	border-radius: 15px;
-	padding-left: 5px;
 	padding-right: 5px;
+	padding-bottom: 10px;
 	background-color: #8FABD4;
 	border-color: #4A70A9;
+	max-width: 1200px;       
+    margin: 0 auto;           
+    overflow: auto;  
+	
 }
 
 .div3_OK{
@@ -83,8 +91,10 @@
 	padding-right: 5px;
 	background-color: #8FABD4;
 	border-color: #4A70A9;
-	flex: 1;
     min-width: 0;
+	max-width: 1200px;       
+    margin: 0 auto;           
+    overflow: auto;  
 }
 
 .div4_OK{
@@ -122,6 +132,10 @@
 	padding-right: 5px;
 	background-color: #8FABD4;
 	border-color: #4A70A9;
+	min-width: 0;
+	max-width: 1200px;       
+    margin: 0 auto;           
+    overflow: auto;  
 }
 
 .div7_OK{
@@ -130,6 +144,16 @@
 	border-radius: 15px;
 	padding-left: 5px;
 	padding-right: 5px;
+	background-color: #8FABD4;
+	border-color: #4A70A9;
+	min-width: 0;
+	max-width: 1200px;       
+    margin: 0 auto;           
+    overflow: auto;  
+}
+
+.accordion{
+	border-style: solid;
 	background-color: #8FABD4;
 	border-color: #4A70A9;
 }
@@ -170,6 +194,7 @@
 	width: fit-content;
 	margin: auto;
 	padding-top: 5px;
+	text-decoration: underline;
 
 }
 
@@ -184,88 +209,86 @@
 	padding-right: 5px;
 	width: fit-content;
 	margin: auto;
+	text-decoration: underline;
 
 }
 
 .body1_ok{
-	background-image: url("../images/urban2.jpg");
-	background-repeat: no-repeat;  /* Do not repeat the image if its size is exceeded */
+	background-image: url("../images/urban2_OK.jpg"); /*https://www.pexels.com/photo/landscape-photography-of-cooling-tower-162646/ */
+	background-repeat: no-repeat;  
 	background-attachment: fixed;  /* Prevent image moving on scroll */
 	background-size: cover;  /* Fill all available space on the page */
 	background-position-y: center; /* Centre the image on the Y-axis */
 }
-
+/* second body tags */
 .body2_ok{
-	background-image: url("../images/urban5.jpg");
-	background-repeat: no-repeat;  /* Do not repeat the image if its size is exceeded */
-	background-attachment: fixed;  /* Prevent image moving on scroll */
-	background-size: cover;  /* Fill all available space on the page */
-	background-position-y: center; /* Centre the image on the Y-axis */
+	background-image: url("../images/urban5_OK.jpg"); /*https://www.pexels.com/photo/tram-on-the-streets-of-helsinki-finland-5067322/ */
+	background-repeat: no-repeat;  
+	background-attachment: fixed;  
+	background-size: cover;  
+	background-position-y: center; 
 }
-
+/* styling for the title to stand out */
 .titleh4_OK{
 	text-align: center;
 	margin: auto;
-}
-
-.content-wrapper_OK {
-    display: flex;
-    gap: 20px;
-}
-
-
-
-/* Dropdown box */
-.divDropdown_OK {
-    border: 1px solid #ccc;
-    padding: 20px;
-    width: 100%;
-    position: relative;
-	
-    flex: 1;
-    min-width: 0; /* prevents overflow issues */
-}
-
-
-.dropdown-header_OK {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.dropdownContainer_OK {
-    border: 1px solid #ccc;
-    padding: 6px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    background: #fff;
-}
-
-.arrow_OK {
-    font-size: 0.8rem;
+	text-decoration: underline;
+	margin-top: 5px;
+	padding-bottom: 5px;
 }
 
 /* Dropdown content */
-.dropdownMenu_OK {
-    margin-top: 12px;
-    display: none;
+
+.accordion-item{
+	background-color:#8FABD4;
 }
 
-.dropdownMenu_OK.open {
-    display: block;
+.accordion-header{
+	background-color:#4A70A9;
 }
 
-.twoColumnWrapper_OK {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
+/* Dropdown content end */
+
+.navbar{
+	background-color:#8FABD4;
 }
 
+.p1_OK{
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.p2_OK{
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.p3_OK{
+	padding-top: 5px;
+	padding-left: 10px;
+}
+/* footer code centered */
+.footer_OK{
+	background-color: #EFECE3;
+	text-align: center;
+	
+}
+
+.box{
+		opacity:0.7;
+}
+
+#boxTwo{
+	opacity:0.7;
+}
+
+#sourceDisplay{
+	display: none;
+}
 
 /* Oran King CSS End*/
+
 
 /*karls css start*/
 
@@ -425,6 +448,7 @@
 }
 
 /*karls css end*/ 
+
 
 /* Leila Stowe CSS starts */
 
@@ -777,6 +801,7 @@
 }
 
 /* Leila Stowe CSS ends */
+
 
 /* SM CSS Start */
 .body_SM{
