@@ -9,7 +9,7 @@
 
 	
 }
-
+/* styling for the images */
 .urban2_OK{
 	
 	border-radius: 50%;
@@ -52,10 +52,10 @@
 
 
 /* main container */
-.container{
+.container_OK{
 	
 }
-/* div1 */
+
 .div1_OK{
 	border-style: groove;
     border-width: 5px;
@@ -68,7 +68,7 @@
     margin: 0 auto;           
     overflow: auto;  
 }
-
+/* padding used with overflow to make the div have more shape */
 .div2_OK{
 	border-style: groove;
     border-width: 5px;
@@ -91,8 +91,10 @@
 	padding-right: 5px;
 	background-color: #8FABD4;
 	border-color: #4A70A9;
-	flex: 1;
     min-width: 0;
+	max-width: 1200px;       
+    margin: 0 auto;           
+    overflow: auto;  
 }
 
 .div4_OK{
@@ -130,6 +132,10 @@
 	padding-right: 5px;
 	background-color: #8FABD4;
 	border-color: #4A70A9;
+	min-width: 0;
+	max-width: 1200px;       
+    margin: 0 auto;           
+    overflow: auto;  
 }
 
 .div7_OK{
@@ -140,6 +146,10 @@
 	padding-right: 5px;
 	background-color: #8FABD4;
 	border-color: #4A70A9;
+	min-width: 0;
+	max-width: 1200px;       
+    margin: 0 auto;           
+    overflow: auto;  
 }
 
 .accordion{
@@ -184,6 +194,7 @@
 	width: fit-content;
 	margin: auto;
 	padding-top: 5px;
+	text-decoration: underline;
 
 }
 
@@ -198,28 +209,32 @@
 	padding-right: 5px;
 	width: fit-content;
 	margin: auto;
+	text-decoration: underline;
 
 }
 
 .body1_ok{
-	background-image: url("../images/urban2.jpg");
+	background-image: url("../images/urban2_OK.jpg"); /*https://www.pexels.com/photo/landscape-photography-of-cooling-tower-162646/ */
 	background-repeat: no-repeat;  
 	background-attachment: fixed;  /* Prevent image moving on scroll */
 	background-size: cover;  /* Fill all available space on the page */
 	background-position-y: center; /* Centre the image on the Y-axis */
 }
-
+/* second body tags */
 .body2_ok{
-	background-image: url("../images/urban5.jpg");
+	background-image: url("../images/urban5_OK.jpg"); /*https://www.pexels.com/photo/tram-on-the-streets-of-helsinki-finland-5067322/ */
 	background-repeat: no-repeat;  
 	background-attachment: fixed;  
 	background-size: cover;  
 	background-position-y: center; 
 }
-
+/* styling for the title to stand out */
 .titleh4_OK{
 	text-align: center;
 	margin: auto;
+	text-decoration: underline;
+	margin-top: 5px;
+	padding-bottom: 5px;
 }
 
 /* Dropdown content */
@@ -234,7 +249,7 @@
 
 /* Dropdown content end */
 
-.navbar-expand-lg{
+.navbar{
 	background-color:#8FABD4;
 }
 
@@ -253,7 +268,24 @@
 	padding-top: 5px;
 	padding-left: 10px;
 }
+/* footer code centered */
+.footer_OK{
+	background-color: #EFECE3;
+	text-align: center;
+	
+}
 
+.box{
+		opacity:0.7;
+}
+
+#boxTwo{
+	opacity:0.7;
+}
+
+#sourceDisplay{
+	display: none;
+}
 
 /* Oran King CSS End*/
 
